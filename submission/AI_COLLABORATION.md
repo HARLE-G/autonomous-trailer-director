@@ -1,7 +1,23 @@
 # AI collaboration note
 
 > **Author to complete before submitting.** The interview asks "What did Claude/Codex suggest that looked plausible
-> but was wrong?". Only you can answer that truthfully, so the sections marked **[YOUR NOTES]** are left for you.
+> but was wrong?". Only you can answer that truthfully, so the sections marked **[Prompts and iteration
+
+I used AI assistance primarily for architecture exploration, implementation scaffolding, test generation, and documentation. My instructions emphasized a verification-first design: the planner should propose trailer decisions, while an independent verifier should be able to reject those decisions based on episode evidence, policy rules, rights constraints, and spoiler checks.
+
+After reviewing the generated output, I refined the implementation to avoid trusting planner-provided metadata and ensured that validation was performed against the underlying episode and constraint data.
+
+Plausible but incorrect AI suggestion
+
+One generated suggestion was to rely on planner-provided scene metadata and evidence when validating a trailer segment. This looked reasonable because the planner already had access to the same information, but it would allow an incorrect or hallucinated planner decision to pass validation.
+
+I changed the implementation so that the verifier independently checks scene existence, applicable constraints, and finding codes against the source data rather than trusting the planner's claims.
+
+Manual changes
+
+I manually reviewed the generated implementation, corrected test assumptions where they did not match the source data, and refined the documentation to describe only capabilities that are actually implemented.
+
+I also kept the multimodal limitation explicit: the current implementation does not perform direct pixel-level video analysis, so it does not claim full visual multimodal verification.]** are left for you.
 > Everything else below is limited to what has been checked and can be reproduced.
 
 ## How AI was used
@@ -33,7 +49,23 @@ deciding which one to change.
 * Over-claiming: e.g. calling the pipeline "multimodal" though it does no pixel analysis (see KNOWN_LIMITATIONS).
 * Impact analysis that looks selective but isn't (policy tokens on every segment).
 
-## [YOUR NOTES] items to add from your own sessions
+## [Prompts and iteration
+
+I used AI assistance primarily for architecture exploration, implementation scaffolding, test generation, and documentation. My instructions emphasized a verification-first design: the planner should propose trailer decisions, while an independent verifier should be able to reject those decisions based on episode evidence, policy rules, rights constraints, and spoiler checks.
+
+After reviewing the generated output, I refined the implementation to avoid trusting planner-provided metadata and ensured that validation was performed against the underlying episode and constraint data.
+
+Plausible but incorrect AI suggestion
+
+One generated suggestion was to rely on planner-provided scene metadata and evidence when validating a trailer segment. This looked reasonable because the planner already had access to the same information, but it would allow an incorrect or hallucinated planner decision to pass validation.
+
+I changed the implementation so that the verifier independently checks scene existence, applicable constraints, and finding codes against the source data rather than trusting the planner's claims.
+
+Manual changes
+
+I manually reviewed the generated implementation, corrected test assumptions where they did not match the source data, and refined the documentation to describe only capabilities that are actually implemented.
+
+I also kept the multimodal limitation explicit: the current implementation does not perform direct pixel-level video analysis, so it does not claim full visual multimodal verification.] items to add from your own sessions
 - Prompts you gave and what you changed after reviewing the output.
 - 1-2 suggestions from Claude/Codex that looked plausible but were wrong, and how you caught them.
 - Anything you rewrote by hand.
