@@ -1,7 +1,7 @@
 # AI collaboration note
 
 > **Author to complete before submitting.** The interview asks "What did Claude/Codex suggest that looked plausible
-> but was wrong?". Only you can answer that truthfully, so the sections marked **[Prompts and iteration
+> but was wrong?". Only you can answer that truthfully, so the sections marked [Prompts and iteration
 
 I used AI assistance primarily for architecture exploration, implementation scaffolding, test generation, and documentation. My instructions emphasized a verification-first design: the planner should propose trailer decisions, while an independent verifier should be able to reject those decisions based on episode evidence, policy rules, rights constraints, and spoiler checks.
 
