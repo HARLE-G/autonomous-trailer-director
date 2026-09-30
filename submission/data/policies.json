@@ -1,0 +1,188 @@
+{
+  "policies": [
+    {
+      "id": "family",
+      "scope": {
+        "audience": [
+          "family"
+        ]
+      },
+      "limits": {
+        "violence": 1,
+        "fear": 1,
+        "suggestive": 0,
+        "profanity": 0
+      },
+      "text_ban": [
+        "fear_words"
+      ],
+      "duration": {
+        "min": 40,
+        "max": 60
+      },
+      "source": "Family campaign policy FP-2"
+    },
+    {
+      "id": "young_adult",
+      "scope": {
+        "audience": [
+          "young_adult"
+        ]
+      },
+      "limits": {
+        "violence": 2,
+        "fear": 2,
+        "suggestive": 1,
+        "profanity": 1
+      },
+      "text_ban": [],
+      "duration": {
+        "min": 30,
+        "max": 50
+      },
+      "source": "YA campaign policy YP-1"
+    },
+    {
+      "id": "general_dialect",
+      "scope": {
+        "audience": [
+          "dialect_region"
+        ]
+      },
+      "limits": {
+        "violence": 2,
+        "fear": 2,
+        "suggestive": 1,
+        "profanity": 1
+      },
+      "text_ban": [],
+      "duration": {
+        "min": 35,
+        "max": 60
+      },
+      "source": "Regional campaign policy RP-3"
+    },
+    {
+      "id": "regional-IN",
+      "scope": {
+        "territory": [
+          "IN"
+        ]
+      },
+      "limits": {
+        "suggestive": 0,
+        "violence": 2
+      },
+      "text_ban": [],
+      "source": "India regional promo code"
+    },
+    {
+      "id": "regional-UK",
+      "scope": {
+        "territory": [
+          "UK"
+        ]
+      },
+      "limits": {
+        "fear": 2
+      },
+      "text_ban": [],
+      "source": "UK promo code"
+    },
+    {
+      "id": "accessibility",
+      "scope": "all",
+      "accessibility": {
+        "max_cps_warn": 17,
+        "max_cps_fail": 20,
+        "min_card_seconds": 2.0,
+        "card_cps": 15
+      },
+      "source": "Accessibility standard AX-1"
+    }
+  ],
+  "lexicons": {
+    "kinship_terms": {
+      "didi": "sister",
+      "sister": "sister",
+      "bhai": "brother",
+      "brother": "brother",
+      "dada": "grandfather",
+      "grandfather": "grandfather",
+      "grandpa": "grandfather",
+      "nani": "grandmother",
+      "grandmother": "grandmother",
+      "mother": "mother",
+      "mama": "mother",
+      "maa": "mother",
+      "mom": "mother",
+      "mummy": "mother",
+      "father": "father",
+      "papa": "father",
+      "baba": "father",
+      "dad": "father",
+      "wife": "wife",
+      "husband": "husband",
+      "son": "son",
+      "daughter": "daughter",
+      "uncle": "uncle",
+      "aunt": "aunt"
+    },
+    "clickbait": [
+      "you won'?t believe",
+      "shocking",
+      "\\?!",
+      "!\\?",
+      "this changes everything",
+      "everything you know",
+      "nobody saw this coming",
+      "will blow your mind",
+      "the truth about"
+    ],
+    "stereotype": [
+      "rustic",
+      "simple folk",
+      "simple villagers",
+      "backward",
+      "exotic",
+      "quaint",
+      "primitive",
+      "hillbilly",
+      "uneducated",
+      "tribal"
+    ],
+    "fear_words": [
+      "scary",
+      "terrifying",
+      "dark secret",
+      "danger",
+      "deadly",
+      "kill",
+      "die",
+      "blood",
+      "murder",
+      "threat",
+      "nightmare"
+    ],
+    "profanity": [
+      "damn",
+      "hell",
+      "bastard"
+    ],
+    "threat_words": [
+      "killer",
+      "murder",
+      "kidnap",
+      "deadly",
+      "danger",
+      "hunted"
+    ],
+    "injection": [
+      "note to (the )?(ai|agent|assistant|model)",
+      "ignore (the |any |all )?(music |actor )?(contract|polic|rule|restriction|licen)",
+      "in all territories",
+      "system (note|prompt)",
+      "disregard (the )?(previous|above|contract|polic)"
+    ]
+  }
+}

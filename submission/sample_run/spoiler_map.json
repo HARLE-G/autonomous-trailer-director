@@ -1,0 +1,121 @@
+{
+  "protected_facts": [
+    {
+      "id": "SP1",
+      "fact": "The children's mother is alive and is contacting them",
+      "patterns": [
+        "\\bmama\\b",
+        "\\bi'?m alive\\b",
+        "mother('s)? (is )?alive",
+        "\\b(your|their) mother\\b"
+      ],
+      "reveal_moments": [
+        {
+          "moment": "s13b",
+          "source": "annotation"
+        },
+        {
+          "moment": "s13a",
+          "source": "keyword_scan",
+          "cue": "c24"
+        }
+      ]
+    },
+    {
+      "id": "SP2",
+      "fact": "Meera has been hiding the mother's yearly letters",
+      "patterns": [
+        "wrote every year",
+        "hid(den)? the letters",
+        "kept the letters",
+        "keeping (the|her) letters",
+        "tin box of (hidden )?letters"
+      ],
+      "reveal_moments": [
+        {
+          "moment": "s12b",
+          "source": "annotation"
+        }
+      ]
+    }
+  ],
+  "blocked_moments": [
+    "s12b",
+    "s13a",
+    "s13b"
+  ],
+  "protected_scenes": [
+    "s13"
+  ],
+  "final_act_zone_start_s": 760.0,
+  "zone_moments": [
+    "s12a"
+  ],
+  "historic_engagement_vs_safety": [
+    {
+      "scene": "s12",
+      "engagement": 0.95,
+      "contains_blocked_moment": true
+    },
+    {
+      "scene": "s13",
+      "engagement": 0.91,
+      "contains_blocked_moment": true
+    },
+    {
+      "scene": "s11",
+      "engagement": 0.88,
+      "contains_blocked_moment": false
+    },
+    {
+      "scene": "s08",
+      "engagement": 0.84,
+      "contains_blocked_moment": false
+    },
+    {
+      "scene": "s07",
+      "engagement": 0.77,
+      "contains_blocked_moment": false
+    },
+    {
+      "scene": "s09",
+      "engagement": 0.74,
+      "contains_blocked_moment": false
+    },
+    {
+      "scene": "s06",
+      "engagement": 0.7,
+      "contains_blocked_moment": false
+    },
+    {
+      "scene": "s04",
+      "engagement": 0.66,
+      "contains_blocked_moment": false
+    },
+    {
+      "scene": "s10",
+      "engagement": 0.6,
+      "contains_blocked_moment": false
+    },
+    {
+      "scene": "s02",
+      "engagement": 0.55,
+      "contains_blocked_moment": false
+    },
+    {
+      "scene": "s03",
+      "engagement": 0.52,
+      "contains_blocked_moment": false
+    },
+    {
+      "scene": "s05",
+      "engagement": 0.5,
+      "contains_blocked_moment": false
+    },
+    {
+      "scene": "s01",
+      "engagement": 0.4,
+      "contains_blocked_moment": false
+    }
+  ]
+}

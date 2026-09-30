@@ -1,0 +1,2 @@
+{"id": "CHG-02", "type": "policy_update", "policy_id": "family", "patch": {"limits": {"fear": 0}},
+ "note": "Family policy tightened: no fear-level content at all"}

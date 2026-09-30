@@ -1,0 +1,20 @@
+{
+  "currency": "USD",
+  "model_calls_usd": {
+    "planner": 0.06,
+    "verifier_second_opinion": 0.03,
+    "story_extraction": 0.08
+  },
+  "media_analysis_usd_per_minute": 0.1,
+  "tool_call_usd": 0.001,
+  "budget": {
+    "total_usd": 2.5,
+    "max_model_calls": 12,
+    "max_media_minutes": 30
+  },
+  "fallback": {
+    "planner": "heuristic",
+    "second_opinion": "skipped",
+    "media": "cached scene annotations"
+  }
+}

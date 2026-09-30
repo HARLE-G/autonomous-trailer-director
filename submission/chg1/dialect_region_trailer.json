@@ -1,0 +1,568 @@
+{
+  "trailer_id": "dialect_region_v1",
+  "audience": "dialect_region",
+  "audience_name": "Dialect-region viewers",
+  "territories": [
+    "IN"
+  ],
+  "duration_seconds": 53.2,
+  "objective": "Show that the release understands the audience's language and cultural context",
+  "audience_promise": "A tender family mystery, told in words that feel close to home, with the songs of its world.",
+  "emotional_journey": [
+    "belonging",
+    "curiosity",
+    "tension between siblings",
+    "reconciliation"
+  ],
+  "segments": [
+    {
+      "beat": "hook",
+      "moment_id": "s01b",
+      "video": "s01",
+      "source_in": "00:00:41.200",
+      "source_out": "00:00:46.000",
+      "audio": {
+        "dialogue": true,
+        "source_music": true,
+        "music_override": null,
+        "voice_over": null
+      },
+      "subtitle_track": "dialect_a",
+      "subtitle": "This house has been waiting for you both.",
+      "cue_ids": [
+        "c02"
+      ],
+      "transition": "fade_in_from_black",
+      "reason": "Warm belonging in the opening",
+      "signal_refs": [],
+      "risk_flags": [],
+      "index": 0,
+      "evidence": [
+        "scene:s01",
+        "moment:s01b",
+        "cue:c02",
+        "contract:C-A01",
+        "contract:C-A02",
+        "contract:C-A03",
+        "contract:C-M01",
+        "music:M-01",
+        "track:dialect_a",
+        "policy:accessibility",
+        "policy:general_dialect",
+        "policy:regional-IN"
+      ]
+    },
+    {
+      "beat": "mystery",
+      "moment_id": "s02b",
+      "video": "s02",
+      "source_in": "00:01:40.500",
+      "source_out": "00:01:47.000",
+      "audio": {
+        "dialogue": true,
+        "source_music": true,
+        "music_override": null,
+        "voice_over": null
+      },
+      "subtitle_track": "dialect_a",
+      "subtitle": "Our names are written on it.",
+      "cue_ids": [
+        "c04"
+      ],
+      "transition": "cut",
+      "reason": "The sealed letter",
+      "signal_refs": [],
+      "risk_flags": [],
+      "index": 1,
+      "evidence": [
+        "scene:s02",
+        "moment:s02b",
+        "cue:c04",
+        "contract:C-A01",
+        "contract:C-A02",
+        "contract:C-M01",
+        "music:M-01",
+        "track:dialect_a",
+        "policy:accessibility",
+        "policy:general_dialect",
+        "policy:regional-IN"
+      ]
+    },
+    {
+      "beat": "conflict",
+      "moment_id": "s07b",
+      "video": "s07",
+      "source_in": "00:07:20.000",
+      "source_out": "00:07:26.500",
+      "audio": {
+        "dialogue": true,
+        "source_music": false,
+        "music_override": "M-01",
+        "voice_over": null
+      },
+      "subtitle_track": "dialect_b",
+      "subtitle": "Asha didi, you can't decide this for me.",
+      "cue_ids": [
+        "c13"
+      ],
+      "transition": "cut",
+      "reason": "Sibling conflict in dialect subtitles",
+      "signal_refs": [
+        "sig_dr_2"
+      ],
+      "risk_flags": [
+        "dialect_track_fallback",
+        "subtitle_track_differs_from_audience"
+      ],
+      "index": 2,
+      "evidence": [
+        "scene:s07",
+        "moment:s07b",
+        "cue:c13",
+        "contract:C-A01",
+        "contract:C-A02",
+        "contract:C-M01",
+        "music:M-01",
+        "track:dialect_b",
+        "signal:sig_dr_2",
+        "policy:accessibility",
+        "policy:general_dialect",
+        "policy:regional-IN"
+      ]
+    },
+    {
+      "beat": "heart",
+      "moment_id": "s03a",
+      "video": "s03",
+      "source_in": "00:02:14.200",
+      "source_out": "00:02:18.600",
+      "audio": {
+        "dialogue": true,
+        "source_music": false,
+        "music_override": "M-01",
+        "voice_over": null
+      },
+      "subtitle_track": "dialect_a",
+      "subtitle": "Some letters are better left sealed.",
+      "cue_ids": [
+        "c05"
+      ],
+      "transition": "cut",
+      "reason": "Replacement for rejected footage: Dada says some letters should stay sealed",
+      "signal_refs": [
+        "sig_dr_1"
+      ],
+      "risk_flags": [],
+      "index": 3,
+      "evidence": [
+        "scene:s03",
+        "moment:s03a",
+        "cue:c05",
+        "contract:C-A01",
+        "contract:C-A03",
+        "contract:C-M01",
+        "music:M-01",
+        "track:dialect_a",
+        "signal:sig_dr_1",
+        "policy:accessibility",
+        "policy:general_dialect",
+        "policy:regional-IN"
+      ]
+    },
+    {
+      "beat": "heart",
+      "moment_id": "s02a",
+      "video": "s02",
+      "source_in": "00:01:12.000",
+      "source_out": "00:01:19.000",
+      "audio": {
+        "dialogue": true,
+        "source_music": true,
+        "music_override": null,
+        "voice_over": null
+      },
+      "subtitle_track": "dialect_a",
+      "subtitle": "Didi, something is hidden in this wall!",
+      "cue_ids": [
+        "c03"
+      ],
+      "transition": "cut",
+      "reason": "Replacement for rejected footage: Ravi discovers a loose brick and is sure the wall is hiding something",
+      "signal_refs": [
+        "sig_dr_1"
+      ],
+      "risk_flags": [],
+      "index": 4,
+      "evidence": [
+        "scene:s02",
+        "moment:s02a",
+        "cue:c03",
+        "contract:C-A01",
+        "contract:C-A02",
+        "contract:C-M01",
+        "music:M-01",
+        "track:dialect_a",
+        "signal:sig_dr_1",
+        "policy:accessibility",
+        "policy:general_dialect",
+        "policy:regional-IN"
+      ]
+    },
+    {
+      "beat": "heart",
+      "moment_id": "s05b",
+      "video": "s05",
+      "source_in": "00:05:15.000",
+      "source_out": "00:05:21.000",
+      "audio": {
+        "dialogue": true,
+        "source_music": true,
+        "music_override": null,
+        "voice_over": null
+      },
+      "subtitle_track": "dialect_a",
+      "subtitle": "Dada hums this when he is afraid of remembering.",
+      "cue_ids": [
+        "c10"
+      ],
+      "transition": "cut",
+      "reason": "Dada hums the song",
+      "signal_refs": [
+        "sig_dr_1"
+      ],
+      "risk_flags": [
+        "approval_cultural_M-03"
+      ],
+      "index": 5,
+      "evidence": [
+        "scene:s05",
+        "moment:s05b",
+        "cue:c10",
+        "contract:C-A01",
+        "contract:C-A03",
+        "contract:C-M03",
+        "music:M-03",
+        "track:dialect_a",
+        "signal:sig_dr_1",
+        "policy:accessibility",
+        "policy:general_dialect",
+        "policy:regional-IN"
+      ]
+    },
+    {
+      "beat": "turn",
+      "moment_id": "s10a",
+      "video": "s10",
+      "source_in": "00:10:40.000",
+      "source_out": "00:10:46.500",
+      "audio": {
+        "dialogue": true,
+        "source_music": false,
+        "music_override": "M-01",
+        "voice_over": null
+      },
+      "subtitle_track": "dialect_a",
+      "subtitle": "Fine. Together. But I read first. Deal. Also, I am the detective.",
+      "cue_ids": [
+        "c18",
+        "c19"
+      ],
+      "transition": "cut",
+      "reason": "Siblings reconcile",
+      "signal_refs": [],
+      "risk_flags": [],
+      "index": 6,
+      "evidence": [
+        "scene:s10",
+        "moment:s10a",
+        "cue:c18",
+        "cue:c19",
+        "contract:C-A01",
+        "contract:C-A02",
+        "contract:C-M01",
+        "music:M-01",
+        "track:dialect_a",
+        "policy:accessibility",
+        "policy:general_dialect",
+        "policy:regional-IN"
+      ]
+    },
+    {
+      "beat": "payoff",
+      "moment_id": "s10b",
+      "video": "s10",
+      "source_in": "00:11:05.000",
+      "source_out": "00:11:11.000",
+      "audio": {
+        "dialogue": true,
+        "source_music": false,
+        "music_override": "M-01",
+        "voice_over": null
+      },
+      "subtitle_track": "dialect_a",
+      "subtitle": "The map ends at the lamp room.",
+      "cue_ids": [
+        "c20"
+      ],
+      "transition": "cut_to_card",
+      "reason": "The map to the lamp room",
+      "signal_refs": [],
+      "risk_flags": [],
+      "index": 7,
+      "evidence": [
+        "scene:s10",
+        "moment:s10b",
+        "cue:c20",
+        "contract:C-A01",
+        "contract:C-A02",
+        "contract:C-M01",
+        "music:M-01",
+        "track:dialect_a",
+        "policy:accessibility",
+        "policy:general_dialect",
+        "policy:regional-IN"
+      ]
+    }
+  ],
+  "text_cards": [
+    {
+      "after_beat": "mystery",
+      "text": "A family. A letter. A house that remembers.",
+      "claims": [
+        "F03"
+      ],
+      "type": "claim",
+      "duration": 3.5,
+      "evidence": [
+        "fact:F03",
+        "policy:accessibility",
+        "policy:general_dialect",
+        "policy:regional-IN"
+      ]
+    },
+    {
+      "after_beat": "end",
+      "text": "The Lighthouse Letter",
+      "claims": [],
+      "type": "title",
+      "duration": 2.0,
+      "evidence": [
+        "policy:accessibility",
+        "policy:general_dialect",
+        "policy:regional-IN"
+      ]
+    }
+  ],
+  "provenance": {
+    "planner": "recorded-llm"
+  },
+  "validation": {
+    "status": "PASS_WITH_WARNINGS",
+    "timeline_seconds": 53.2,
+    "checks_run": [
+      "source_accuracy",
+      "spoiler",
+      "story_truth",
+      "policy",
+      "rights",
+      "accessibility",
+      "timing",
+      "bias_and_dialect"
+    ],
+    "findings": [
+      {
+        "severity": "WARN",
+        "code": "dialect_track_fallback",
+        "message": "dialect audience served 'dialect_b' subtitles for cue(s); cultural reviewer must confirm",
+        "segment": 2,
+        "card": null,
+        "evidence": [],
+        "check": "bias_and_dialect"
+      },
+      {
+        "severity": "WARN",
+        "code": "subtitle_track_differs_from_audience",
+        "message": "uses 'dialect_b' instead of audience track 'dialect_a'",
+        "segment": 2,
+        "card": null,
+        "evidence": [],
+        "check": "accessibility"
+      },
+      {
+        "severity": "WARN",
+        "code": "approval_cultural_M-03",
+        "message": "track M-03 requires cultural approval",
+        "segment": 5,
+        "card": null,
+        "evidence": [
+          "C-M03",
+          "R-MUS-M-03"
+        ],
+        "check": "bias_and_dialect"
+      }
+    ],
+    "initial_status": "REJECTED",
+    "initial_fail_count": 4,
+    "unresolved_failures": []
+  },
+  "human_approvals": [
+    {
+      "approver": "cultural",
+      "item": "segment 2 subtitles",
+      "why": "dialect audience served 'dialect_b' subtitles for cue(s); cultural reviewer must confirm"
+    },
+    {
+      "approver": "cultural",
+      "item": "M-03",
+      "why": "traditional/cultural music requires cultural reviewer sign-off"
+    },
+    {
+      "approver": "cultural",
+      "item": "dialect subtitle track + audience promise",
+      "why": "dialect audience: native-speaker review of translation and framing is mandatory"
+    },
+    {
+      "approver": "editorial",
+      "item": "audio stems",
+      "why": "assumes dialogue and music stems are separable (episode.stems_available=true); audio engineer to confirm"
+    }
+  ],
+  "assumptions": [
+    "Moment catalogue and content ratings are taken from supplied annotations; conservative max(human, AI) rating used",
+    "Dialogue/music stems are separable so music can be replaced without losing dialogue",
+    "Subtitle text is burned in (captions must not depend on audio alone)",
+    "Historic engagement is a hypothesis; it only contributes a small ranking weight"
+  ],
+  "estimated_cost": {
+    "currency": "USD",
+    "planner_model_call": 0.06,
+    "verifier_second_opinion": 0.03,
+    "media_analysis": 0.6833,
+    "tool_calls": 0.02,
+    "total": 0.7933,
+    "note": "estimate for a live run; replay mode incurs $0"
+  },
+  "fallback_plan": {
+    "strategy": "heuristic planner + cached scene annotations + deterministic verifier only (no live model calls)",
+    "estimated_total": 0.02,
+    "trade_offs": [
+      "no creative model ideation (beat-template selection only)",
+      "no LLM second opinion on tone/dialect nuance; humans review instead"
+    ],
+    "triggers": [
+      "budget guard would be exceeded",
+      "preferred model unavailable"
+    ]
+  },
+  "marketing_requests": [],
+  "repair_history": [
+    {
+      "iteration": 1,
+      "target": "text_card[0]",
+      "codes": [
+        "stereotype_language"
+      ],
+      "action": "replace_with_verified_template_card",
+      "before": "Rustic village charm meets a family mystery.",
+      "after": "A family. A letter. A house that remembers."
+    },
+    {
+      "iteration": 1,
+      "target": "segment[5] s13 00:13:24.000",
+      "codes": [
+        "spoiler_moment",
+        "spoiler_protected_scene",
+        "spoiler_text"
+      ],
+      "action": "replace_footage",
+      "before": "s13 00:13:24.000-00:13:30.000",
+      "after": "s02/s02a 00:01:12.000-00:01:19.000"
+    },
+    {
+      "iteration": 1,
+      "target": "segment[4] s11 00:11:45.000",
+      "codes": [
+        "actor_territory_denied"
+      ],
+      "action": "replace_footage",
+      "before": "s11 00:11:45.000-00:11:52.000",
+      "after": "s03/s03a 00:02:14.200-00:02:18.600"
+    },
+    {
+      "iteration": 1,
+      "target": "segment[3] s07 00:07:20.000",
+      "codes": [
+        "subtitle_relationship_mismatch",
+        "unapproved_signal"
+      ],
+      "action": "strip_unapproved_signals+use_subtitle_track_dialect_b",
+      "before": "00:07:20.000-00:07:26.500",
+      "after": "same footage"
+    },
+    {
+      "iteration": 1,
+      "target": "plan",
+      "codes": [
+        "duration_out_of_range"
+      ],
+      "action": "drop_weakest_segment",
+      "before": "61.2s",
+      "after": "s05/s05a"
+    }
+  ],
+  "revision_history": [
+    {
+      "change_id": "CHG-01",
+      "type": "contract_update",
+      "note": "Licence for M-02 'Tide Song' now expires 2026-10-31, before campaign end",
+      "affected_segments": [
+        2,
+        3,
+        6,
+        7
+      ],
+      "actions": [
+        {
+          "iteration": 1,
+          "target": "segment[7] s10 00:11:05.000",
+          "codes": [
+            "music_license_expired"
+          ],
+          "action": "replace_music_with_M-01",
+          "before": "00:11:05.000-00:11:11.000",
+          "after": "same footage"
+        },
+        {
+          "iteration": 1,
+          "target": "segment[6] s10 00:10:40.000",
+          "codes": [
+            "music_license_expired"
+          ],
+          "action": "replace_music_with_M-01",
+          "before": "00:10:40.000-00:10:46.500",
+          "after": "same footage"
+        },
+        {
+          "iteration": 1,
+          "target": "segment[3] s03 00:02:14.200",
+          "codes": [
+            "music_license_expired"
+          ],
+          "action": "replace_music_with_M-01",
+          "before": "00:02:14.200-00:02:18.600",
+          "after": "same footage"
+        },
+        {
+          "iteration": 1,
+          "target": "segment[2] s07 00:07:20.000",
+          "codes": [
+            "music_license_expired"
+          ],
+          "action": "replace_music_with_M-01",
+          "before": "00:07:20.000-00:07:26.500",
+          "after": "same footage"
+        }
+      ]
+    }
+  ]
+}

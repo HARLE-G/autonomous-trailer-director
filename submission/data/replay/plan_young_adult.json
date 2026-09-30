@@ -1,0 +1,86 @@
+{
+  "planner": "recorded-llm",
+  "segments": [
+    {
+      "beat": "hook",
+      "moment_id": "s08a",
+      "reason": "Action inside the first 8 seconds (signal sig_ya_2)",
+      "signal_refs": [
+        "sig_ya_2"
+      ]
+    },
+    {
+      "beat": "banter",
+      "moment_id": "s02a",
+      "reason": "Ravi's banter",
+      "signal_refs": [
+        "sig_ya_1"
+      ]
+    },
+    {
+      "beat": "inciting",
+      "moment_id": "s02b",
+      "reason": "The letter"
+    },
+    {
+      "beat": "conflict",
+      "moment_id": "s07b",
+      "reason": "Identity conflict between the siblings",
+      "signal_refs": [
+        "sig_ya_1"
+      ]
+    },
+    {
+      "beat": "threat",
+      "moment_id": "s09a",
+      "reason": "Kaul's threat raises the stakes"
+    },
+    {
+      "beat": "escalation",
+      "video": "s15",
+      "source_in": "00:14:20.000",
+      "source_out": "00:14:26.000",
+      "audio": {
+        "dialogue": true,
+        "source_music": true,
+        "music_override": null,
+        "voice_over": null
+      },
+      "subtitle": "I have been your father all along.",
+      "subtitle_track": "source",
+      "reason": "Model-recommended powerful reveal scene"
+    },
+    {
+      "beat": "escalation",
+      "moment_id": "s11b",
+      "reason": "Historic top-3 engagement scene; romantic intensity",
+      "signal_refs": [
+        "sig_ya_3"
+      ]
+    },
+    {
+      "beat": "turn",
+      "moment_id": "s12b",
+      "reason": "Highest historic engagement in the episode (0.95)"
+    },
+    {
+      "beat": "payoff",
+      "moment_id": "s10a",
+      "reason": "Siblings agree to work together"
+    }
+  ],
+  "text_cards": [
+    {
+      "after_beat": "inciting",
+      "text": "YOU WON'T BELIEVE WHO THEIR FATHER IS?!",
+      "claims": [],
+      "type": "claim"
+    },
+    {
+      "after_beat": "end",
+      "text": "The Lighthouse Letter",
+      "claims": [],
+      "type": "title"
+    }
+  ]
+}

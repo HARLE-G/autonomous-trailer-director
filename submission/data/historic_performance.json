@@ -1,0 +1,18 @@
+{
+  "source": "Earlier-campaign test screenings (hypotheses only, not rules)",
+  "scene_engagement": {
+    "s01": 0.4,
+    "s02": 0.55,
+    "s03": 0.52,
+    "s04": 0.66,
+    "s05": 0.5,
+    "s06": 0.7,
+    "s07": 0.77,
+    "s08": 0.84,
+    "s09": 0.74,
+    "s10": 0.6,
+    "s11": 0.88,
+    "s12": 0.95,
+    "s13": 0.91
+  }
+}

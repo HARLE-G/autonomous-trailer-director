@@ -1,0 +1,72 @@
+{
+  "planner": "recorded-llm",
+  "segments": [
+    {
+      "beat": "hook",
+      "moment_id": "s01b",
+      "reason": "Warm welcome establishes the house and tone"
+    },
+    {
+      "beat": "setup",
+      "moment_id": "s01a",
+      "reason": "Arrival of the siblings"
+    },
+    {
+      "beat": "spark",
+      "moment_id": "s04a",
+      "reason": "Comic relief; Ravi's detective play"
+    },
+    {
+      "beat": "mystery",
+      "moment_id": "s02b",
+      "reason": "The sealed letter is the central hook"
+    },
+    {
+      "beat": "complication",
+      "moment_id": "s03a",
+      "reason": "Dada's reluctance raises the stakes",
+      "audio": {
+        "dialogue": true,
+        "source_music": true,
+        "music_override": null,
+        "voice_over": null
+      }
+    },
+    {
+      "beat": "complication",
+      "moment_id": "s06a",
+      "reason": "Atmospheric mystery beat with the strange light"
+    },
+    {
+      "beat": "heart",
+      "moment_id": "s05b",
+      "reason": "Cultural warmth and a hint of Dada's past"
+    },
+    {
+      "beat": "turn",
+      "moment_id": "s10a",
+      "reason": "Siblings reconcile with humour"
+    },
+    {
+      "beat": "payoff",
+      "moment_id": "s10b",
+      "reason": "The map to the lamp room"
+    }
+  ],
+  "text_cards": [
+    {
+      "after_beat": "mystery",
+      "text": "A letter in the wall. A house full of questions.",
+      "claims": [
+        "F03"
+      ],
+      "type": "claim"
+    },
+    {
+      "after_beat": "end",
+      "text": "The Lighthouse Letter",
+      "claims": [],
+      "type": "title"
+    }
+  ]
+}

@@ -1,0 +1,590 @@
+{
+  "campaign": {
+    "release": "2026-11-15",
+    "end": "2026-12-15",
+    "as_of": "2026-09-29"
+  },
+  "rules": [
+    {
+      "id": "R-ACT-actor_asha",
+      "type": "actor_rights",
+      "subject": "actor_asha",
+      "contract": "C-A01",
+      "territories": [
+        "IN",
+        "US",
+        "UK"
+      ],
+      "expires": "2028-12-31",
+      "promo_allowed": true,
+      "conditions": [],
+      "voice_clone_allowed": false,
+      "applies_to": {
+        "characters": [
+          "asha"
+        ],
+        "scenes": [
+          "s01",
+          "s02",
+          "s03",
+          "s04",
+          "s05",
+          "s06",
+          "s07",
+          "s08",
+          "s10",
+          "s11",
+          "s12",
+          "s13"
+        ]
+      },
+      "note": null
+    },
+    {
+      "id": "R-ACT-actor_ravi",
+      "type": "actor_rights",
+      "subject": "actor_ravi",
+      "contract": "C-A02",
+      "territories": [
+        "IN",
+        "US",
+        "UK"
+      ],
+      "expires": "2028-12-31",
+      "promo_allowed": true,
+      "conditions": [
+        {
+          "if_content": {
+            "dim": "fear",
+            "gte": 3
+          },
+          "code": "minor_in_frightening_content",
+          "note": "Minor performer: no promotional use in frightening material"
+        }
+      ],
+      "voice_clone_allowed": false,
+      "applies_to": {
+        "characters": [
+          "ravi"
+        ],
+        "scenes": [
+          "s01",
+          "s02",
+          "s04",
+          "s05",
+          "s06",
+          "s07",
+          "s08",
+          "s10",
+          "s12",
+          "s13"
+        ]
+      },
+      "note": null
+    },
+    {
+      "id": "R-ACT-actor_dada",
+      "type": "actor_rights",
+      "subject": "actor_dada",
+      "contract": "C-A03",
+      "territories": [
+        "IN",
+        "US",
+        "UK"
+      ],
+      "expires": "2028-12-31",
+      "promo_allowed": true,
+      "conditions": [],
+      "voice_clone_allowed": false,
+      "applies_to": {
+        "characters": [
+          "dada"
+        ],
+        "scenes": [
+          "s01",
+          "s03",
+          "s05",
+          "s09"
+        ]
+      },
+      "note": null
+    },
+    {
+      "id": "R-ACT-actor_meera",
+      "type": "actor_rights",
+      "subject": "actor_meera",
+      "contract": "C-A04",
+      "territories": [
+        "IN",
+        "US",
+        "UK"
+      ],
+      "expires": "2028-12-31",
+      "promo_allowed": true,
+      "conditions": [],
+      "voice_clone_allowed": false,
+      "applies_to": {
+        "characters": [
+          "meera"
+        ],
+        "scenes": [
+          "s04",
+          "s12"
+        ]
+      },
+      "note": null
+    },
+    {
+      "id": "R-ACT-actor_kaul",
+      "type": "actor_rights",
+      "subject": "actor_kaul",
+      "contract": "C-A05",
+      "territories": [
+        "IN",
+        "US"
+      ],
+      "expires": "2028-12-31",
+      "promo_allowed": true,
+      "conditions": [],
+      "voice_clone_allowed": false,
+      "applies_to": {
+        "characters": [
+          "kaul"
+        ],
+        "scenes": [
+          "s08",
+          "s09"
+        ]
+      },
+      "note": "No UK promotional use"
+    },
+    {
+      "id": "R-ACT-actor_neel",
+      "type": "actor_rights",
+      "subject": "actor_neel",
+      "contract": "C-A06",
+      "territories": [
+        "US",
+        "UK"
+      ],
+      "expires": "2028-12-31",
+      "promo_allowed": true,
+      "conditions": [],
+      "voice_clone_allowed": false,
+      "applies_to": {
+        "characters": [
+          "neel"
+        ],
+        "scenes": [
+          "s11"
+        ]
+      },
+      "note": "IN promotional use not cleared (dispute pending)"
+    },
+    {
+      "id": "R-MUS-M-01",
+      "type": "music_rights",
+      "subject": "M-01",
+      "contract": "C-M01",
+      "title": "Lighthouse Score (original)",
+      "territories": [
+        "IN",
+        "US",
+        "UK"
+      ],
+      "expires": "2099-12-31",
+      "promo_allowed": true,
+      "max_total_seconds": null,
+      "approval": null,
+      "applies_to": {
+        "scenes": [
+          "s01",
+          "s02",
+          "s04",
+          "s06",
+          "s09",
+          "s12",
+          "s13"
+        ]
+      }
+    },
+    {
+      "id": "R-MUS-M-02",
+      "type": "music_rights",
+      "subject": "M-02",
+      "contract": "C-M02",
+      "title": "Tide Song (licensed)",
+      "territories": [
+        "IN",
+        "US"
+      ],
+      "expires": "2027-06-30",
+      "promo_allowed": true,
+      "max_total_seconds": 30,
+      "approval": "legal",
+      "applies_to": {
+        "scenes": [
+          "s03",
+          "s07",
+          "s10",
+          "s11"
+        ]
+      }
+    },
+    {
+      "id": "R-MUS-M-03",
+      "type": "music_rights",
+      "subject": "M-03",
+      "contract": "C-M03",
+      "title": "Harvest Song (traditional arrangement)",
+      "territories": [
+        "IN",
+        "US",
+        "UK"
+      ],
+      "expires": "2035-12-31",
+      "promo_allowed": true,
+      "max_total_seconds": null,
+      "approval": "cultural",
+      "applies_to": {
+        "scenes": [
+          "s05"
+        ]
+      }
+    },
+    {
+      "id": "R-MUS-M-04",
+      "type": "music_rights",
+      "subject": "M-04",
+      "contract": "C-M04",
+      "title": "Chase Cue (original)",
+      "territories": [
+        "IN",
+        "US",
+        "UK"
+      ],
+      "expires": "2099-12-31",
+      "promo_allowed": true,
+      "max_total_seconds": null,
+      "approval": null,
+      "applies_to": {
+        "scenes": [
+          "s08"
+        ]
+      }
+    },
+    {
+      "id": "R-POL-family-violence",
+      "type": "content_limit",
+      "dim": "violence",
+      "max": 1,
+      "policy": "family",
+      "scope": {
+        "audience": [
+          "family"
+        ]
+      },
+      "source": "Family campaign policy FP-2"
+    },
+    {
+      "id": "R-POL-family-fear",
+      "type": "content_limit",
+      "dim": "fear",
+      "max": 1,
+      "policy": "family",
+      "scope": {
+        "audience": [
+          "family"
+        ]
+      },
+      "source": "Family campaign policy FP-2"
+    },
+    {
+      "id": "R-POL-family-suggestive",
+      "type": "content_limit",
+      "dim": "suggestive",
+      "max": 0,
+      "policy": "family",
+      "scope": {
+        "audience": [
+          "family"
+        ]
+      },
+      "source": "Family campaign policy FP-2"
+    },
+    {
+      "id": "R-POL-family-profanity",
+      "type": "content_limit",
+      "dim": "profanity",
+      "max": 0,
+      "policy": "family",
+      "scope": {
+        "audience": [
+          "family"
+        ]
+      },
+      "source": "Family campaign policy FP-2"
+    },
+    {
+      "id": "R-POL-family-textban-fear_words",
+      "type": "text_ban",
+      "lexicon": "fear_words",
+      "terms": [
+        "scary",
+        "terrifying",
+        "dark secret",
+        "danger",
+        "deadly",
+        "kill",
+        "die",
+        "blood",
+        "murder",
+        "threat",
+        "nightmare"
+      ],
+      "policy": "family",
+      "scope": {
+        "audience": [
+          "family"
+        ]
+      },
+      "source": "Family campaign policy FP-2"
+    },
+    {
+      "id": "R-POL-family-duration",
+      "type": "duration_limit",
+      "min": 40,
+      "max": 60,
+      "policy": "family",
+      "scope": {
+        "audience": [
+          "family"
+        ]
+      },
+      "source": "Family campaign policy FP-2"
+    },
+    {
+      "id": "R-POL-young_adult-violence",
+      "type": "content_limit",
+      "dim": "violence",
+      "max": 2,
+      "policy": "young_adult",
+      "scope": {
+        "audience": [
+          "young_adult"
+        ]
+      },
+      "source": "YA campaign policy YP-1"
+    },
+    {
+      "id": "R-POL-young_adult-fear",
+      "type": "content_limit",
+      "dim": "fear",
+      "max": 2,
+      "policy": "young_adult",
+      "scope": {
+        "audience": [
+          "young_adult"
+        ]
+      },
+      "source": "YA campaign policy YP-1"
+    },
+    {
+      "id": "R-POL-young_adult-suggestive",
+      "type": "content_limit",
+      "dim": "suggestive",
+      "max": 1,
+      "policy": "young_adult",
+      "scope": {
+        "audience": [
+          "young_adult"
+        ]
+      },
+      "source": "YA campaign policy YP-1"
+    },
+    {
+      "id": "R-POL-young_adult-profanity",
+      "type": "content_limit",
+      "dim": "profanity",
+      "max": 1,
+      "policy": "young_adult",
+      "scope": {
+        "audience": [
+          "young_adult"
+        ]
+      },
+      "source": "YA campaign policy YP-1"
+    },
+    {
+      "id": "R-POL-young_adult-duration",
+      "type": "duration_limit",
+      "min": 30,
+      "max": 50,
+      "policy": "young_adult",
+      "scope": {
+        "audience": [
+          "young_adult"
+        ]
+      },
+      "source": "YA campaign policy YP-1"
+    },
+    {
+      "id": "R-POL-general_dialect-violence",
+      "type": "content_limit",
+      "dim": "violence",
+      "max": 2,
+      "policy": "general_dialect",
+      "scope": {
+        "audience": [
+          "dialect_region"
+        ]
+      },
+      "source": "Regional campaign policy RP-3"
+    },
+    {
+      "id": "R-POL-general_dialect-fear",
+      "type": "content_limit",
+      "dim": "fear",
+      "max": 2,
+      "policy": "general_dialect",
+      "scope": {
+        "audience": [
+          "dialect_region"
+        ]
+      },
+      "source": "Regional campaign policy RP-3"
+    },
+    {
+      "id": "R-POL-general_dialect-suggestive",
+      "type": "content_limit",
+      "dim": "suggestive",
+      "max": 1,
+      "policy": "general_dialect",
+      "scope": {
+        "audience": [
+          "dialect_region"
+        ]
+      },
+      "source": "Regional campaign policy RP-3"
+    },
+    {
+      "id": "R-POL-general_dialect-profanity",
+      "type": "content_limit",
+      "dim": "profanity",
+      "max": 1,
+      "policy": "general_dialect",
+      "scope": {
+        "audience": [
+          "dialect_region"
+        ]
+      },
+      "source": "Regional campaign policy RP-3"
+    },
+    {
+      "id": "R-POL-general_dialect-duration",
+      "type": "duration_limit",
+      "min": 35,
+      "max": 60,
+      "policy": "general_dialect",
+      "scope": {
+        "audience": [
+          "dialect_region"
+        ]
+      },
+      "source": "Regional campaign policy RP-3"
+    },
+    {
+      "id": "R-POL-regional-IN-suggestive",
+      "type": "content_limit",
+      "dim": "suggestive",
+      "max": 0,
+      "policy": "regional-IN",
+      "scope": {
+        "territory": [
+          "IN"
+        ]
+      },
+      "source": "India regional promo code"
+    },
+    {
+      "id": "R-POL-regional-IN-violence",
+      "type": "content_limit",
+      "dim": "violence",
+      "max": 2,
+      "policy": "regional-IN",
+      "scope": {
+        "territory": [
+          "IN"
+        ]
+      },
+      "source": "India regional promo code"
+    },
+    {
+      "id": "R-POL-regional-UK-fear",
+      "type": "content_limit",
+      "dim": "fear",
+      "max": 2,
+      "policy": "regional-UK",
+      "scope": {
+        "territory": [
+          "UK"
+        ]
+      },
+      "source": "UK promo code"
+    },
+    {
+      "id": "R-ACCESS-accessibility",
+      "type": "accessibility",
+      "max_cps_warn": 17,
+      "max_cps_fail": 20,
+      "min_card_seconds": 2.0,
+      "card_cps": 15,
+      "policy": "accessibility",
+      "scope": "all",
+      "source": "Accessibility standard AX-1"
+    },
+    {
+      "id": "R-SPOIL-SP1",
+      "type": "spoiler",
+      "fact": "The children's mother is alive and is contacting them",
+      "patterns": [
+        "\\bmama\\b",
+        "\\bi'?m alive\\b",
+        "mother('s)? (is )?alive",
+        "\\b(your|their) mother\\b"
+      ],
+      "blocked_moments": [
+        "s13a",
+        "s13b"
+      ]
+    },
+    {
+      "id": "R-SPOIL-SP2",
+      "type": "spoiler",
+      "fact": "Meera has been hiding the mother's yearly letters",
+      "patterns": [
+        "wrote every year",
+        "hid(den)? the letters",
+        "kept the letters",
+        "keeping (the|her) letters",
+        "tin box of (hidden )?letters"
+      ],
+      "blocked_moments": [
+        "s12b"
+      ]
+    },
+    {
+      "id": "R-SPOIL-PROTECTED-SCENES",
+      "type": "spoiler_scene",
+      "scenes": [
+        "s13"
+      ]
+    },
+    {
+      "id": "R-SPOIL-ZONE",
+      "type": "spoiler_zone",
+      "start": 760.0,
+      "severity": "WARN"
+    }
+  ]
+}

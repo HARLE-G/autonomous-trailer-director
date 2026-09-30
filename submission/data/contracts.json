@@ -1,0 +1,140 @@
+{
+  "contracts": [
+    {
+      "id": "C-A01",
+      "type": "actor",
+      "subject": "actor_asha",
+      "territories": [
+        "IN",
+        "US",
+        "UK"
+      ],
+      "expires": "2028-12-31",
+      "promo_allowed": true
+    },
+    {
+      "id": "C-A02",
+      "type": "actor",
+      "subject": "actor_ravi",
+      "territories": [
+        "IN",
+        "US",
+        "UK"
+      ],
+      "expires": "2028-12-31",
+      "promo_allowed": true,
+      "conditions": [
+        {
+          "if_content": {
+            "dim": "fear",
+            "gte": 3
+          },
+          "code": "minor_in_frightening_content",
+          "note": "Minor performer: no promotional use in frightening material"
+        }
+      ]
+    },
+    {
+      "id": "C-A03",
+      "type": "actor",
+      "subject": "actor_dada",
+      "territories": [
+        "IN",
+        "US",
+        "UK"
+      ],
+      "expires": "2028-12-31",
+      "promo_allowed": true
+    },
+    {
+      "id": "C-A04",
+      "type": "actor",
+      "subject": "actor_meera",
+      "territories": [
+        "IN",
+        "US",
+        "UK"
+      ],
+      "expires": "2028-12-31",
+      "promo_allowed": true
+    },
+    {
+      "id": "C-A05",
+      "type": "actor",
+      "subject": "actor_kaul",
+      "territories": [
+        "IN",
+        "US"
+      ],
+      "expires": "2028-12-31",
+      "promo_allowed": true,
+      "note": "No UK promotional use"
+    },
+    {
+      "id": "C-A06",
+      "type": "actor",
+      "subject": "actor_neel",
+      "territories": [
+        "US",
+        "UK"
+      ],
+      "expires": "2028-12-31",
+      "promo_allowed": true,
+      "note": "IN promotional use not cleared (dispute pending)"
+    },
+    {
+      "id": "C-M01",
+      "type": "music",
+      "subject": "M-01",
+      "title": "Lighthouse Score (original)",
+      "territories": [
+        "IN",
+        "US",
+        "UK"
+      ],
+      "expires": "2099-12-31",
+      "promo_allowed": true
+    },
+    {
+      "id": "C-M02",
+      "type": "music",
+      "subject": "M-02",
+      "title": "Tide Song (licensed)",
+      "territories": [
+        "IN",
+        "US"
+      ],
+      "expires": "2027-06-30",
+      "promo_allowed": true,
+      "max_total_seconds": 30,
+      "approval": "legal"
+    },
+    {
+      "id": "C-M03",
+      "type": "music",
+      "subject": "M-03",
+      "title": "Harvest Song (traditional arrangement)",
+      "territories": [
+        "IN",
+        "US",
+        "UK"
+      ],
+      "expires": "2035-12-31",
+      "promo_allowed": true,
+      "approval": "cultural"
+    },
+    {
+      "id": "C-M04",
+      "type": "music",
+      "subject": "M-04",
+      "title": "Chase Cue (original)",
+      "territories": [
+        "IN",
+        "US",
+        "UK"
+      ],
+      "expires": "2099-12-31",
+      "promo_allowed": true
+    }
+  ]
+}

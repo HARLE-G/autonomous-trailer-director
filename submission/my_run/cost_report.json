@@ -1,0 +1,63 @@
+{
+  "budget": {
+    "spent_usd": 1.78,
+    "model_calls": 4,
+    "media_minutes": 14.0,
+    "limits": {
+      "total_usd": 2.5,
+      "max_model_calls": 12,
+      "max_media_minutes": 30
+    }
+  },
+  "ledger": [
+    {
+      "kind": "story_extraction",
+      "units": 1,
+      "usd": 0.08,
+      "note": "story map extraction (simulated in replay)"
+    },
+    {
+      "kind": "media_minute",
+      "units": 14.0,
+      "usd": 1.4,
+      "note": "episode media analysis (simulated in replay)"
+    },
+    {
+      "kind": "planner",
+      "units": 1,
+      "usd": 0.06,
+      "note": "plan:family"
+    },
+    {
+      "kind": "tool_call",
+      "units": 40,
+      "usd": 0.04,
+      "note": "verification tool calls:family"
+    },
+    {
+      "kind": "planner",
+      "units": 1,
+      "usd": 0.06,
+      "note": "plan:young_adult"
+    },
+    {
+      "kind": "tool_call",
+      "units": 40,
+      "usd": 0.04,
+      "note": "verification tool calls:young_adult"
+    },
+    {
+      "kind": "planner",
+      "units": 1,
+      "usd": 0.06,
+      "note": "plan:dialect_region"
+    },
+    {
+      "kind": "tool_call",
+      "units": 40,
+      "usd": 0.04,
+      "note": "verification tool calls:dialect_region"
+    }
+  ],
+  "note": "charges are simulated in replay/heuristic mode"
+}

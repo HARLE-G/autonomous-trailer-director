@@ -1,0 +1,386 @@
+{
+  "audiences": [
+    {
+      "id": "family",
+      "name": "Family viewers",
+      "territories": [
+        "IN",
+        "US",
+        "UK"
+      ],
+      "policy": "family",
+      "subtitle_track": "source",
+      "dialect": false,
+      "objective": "Communicate warmth, stakes and broad entertainment value",
+      "promise": "A warm, curious adventure: two siblings, a letter in the wall, and a house that has been waiting for them.",
+      "emotional_journey": [
+        "welcome",
+        "curiosity and humour",
+        "gentle tension",
+        "togetherness"
+      ],
+      "avoid_themes": [
+        "fear",
+        "action",
+        "threat",
+        "romance"
+      ],
+      "beats": [
+        {
+          "name": "hook",
+          "themes": [
+            "warmth",
+            "hook"
+          ]
+        },
+        {
+          "name": "setup",
+          "themes": [
+            "warmth",
+            "setup"
+          ]
+        },
+        {
+          "name": "spark",
+          "themes": [
+            "humour"
+          ]
+        },
+        {
+          "name": "mystery",
+          "themes": [
+            "mystery",
+            "hook"
+          ]
+        },
+        {
+          "name": "complication",
+          "themes": [
+            "conflict",
+            "mystery"
+          ]
+        },
+        {
+          "name": "heart",
+          "themes": [
+            "warmth",
+            "culture"
+          ]
+        },
+        {
+          "name": "turn",
+          "themes": [
+            "reconcile",
+            "humour"
+          ]
+        },
+        {
+          "name": "payoff",
+          "themes": [
+            "reconcile",
+            "mystery"
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "after_beat": "mystery",
+          "text": "A letter in the wall. A house full of questions.",
+          "claims": [
+            "F03"
+          ],
+          "type": "claim"
+        },
+        {
+          "after_beat": "end",
+          "text": "The Lighthouse Letter",
+          "claims": [],
+          "type": "title"
+        }
+      ],
+      "signals": [
+        {
+          "id": "sig_fam_1",
+          "statement": "Co-viewing households complete dramas with warm humour",
+          "preference_tags": [
+            "warmth",
+            "humour",
+            "reconcile"
+          ],
+          "basis": "behavioral",
+          "sample_size": 12000
+        },
+        {
+          "id": "sig_fam_2",
+          "statement": "Family households skip previews with fear cues",
+          "preference_tags": [
+            "!fear"
+          ],
+          "basis": "behavioral",
+          "sample_size": 9000
+        }
+      ]
+    },
+    {
+      "id": "young_adult",
+      "name": "Young adult viewers",
+      "territories": [
+        "IN",
+        "US",
+        "UK"
+      ],
+      "policy": "young_adult",
+      "subtitle_track": "source",
+      "dialect": false,
+      "objective": "Highlight pace, humour, identity and character conflict",
+      "promise": "Two siblings, one sealed letter and a fight over whether to read it. Fast, funny and personal.",
+      "emotional_journey": [
+        "intrigue",
+        "banter",
+        "conflict",
+        "uneasy alliance"
+      ],
+      "avoid_themes": [
+        "romance"
+      ],
+      "beats": [
+        {
+          "name": "hook",
+          "themes": [
+            "action",
+            "mystery",
+            "hook"
+          ]
+        },
+        {
+          "name": "banter",
+          "themes": [
+            "humour"
+          ]
+        },
+        {
+          "name": "inciting",
+          "themes": [
+            "mystery",
+            "hook"
+          ]
+        },
+        {
+          "name": "conflict",
+          "themes": [
+            "conflict",
+            "identity"
+          ]
+        },
+        {
+          "name": "threat",
+          "themes": [
+            "threat",
+            "conflict"
+          ]
+        },
+        {
+          "name": "escalation",
+          "themes": [
+            "action",
+            "courage"
+          ]
+        },
+        {
+          "name": "turn",
+          "themes": [
+            "reconcile",
+            "humour"
+          ]
+        },
+        {
+          "name": "payoff",
+          "themes": [
+            "mystery",
+            "reconcile",
+            "hook"
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "after_beat": "inciting",
+          "text": "One letter. Two siblings. Zero agreement.",
+          "claims": [
+            "F03",
+            "F05"
+          ],
+          "type": "claim"
+        },
+        {
+          "after_beat": "end",
+          "text": "The Lighthouse Letter",
+          "claims": [],
+          "type": "title"
+        }
+      ],
+      "signals": [
+        {
+          "id": "sig_ya_1",
+          "statement": "Viewers engage with sibling banter and conflict",
+          "preference_tags": [
+            "humour",
+            "conflict",
+            "identity"
+          ],
+          "basis": "behavioral",
+          "sample_size": 8000
+        },
+        {
+          "id": "sig_ya_2",
+          "statement": "Previews with action inside the first 8 seconds retain better",
+          "preference_tags": [
+            "action"
+          ],
+          "basis": "behavioral",
+          "sample_size": 7200
+        },
+        {
+          "id": "sig_ya_3",
+          "statement": "Young adults respond to romance storylines",
+          "preference_tags": [
+            "romance"
+          ],
+          "basis": "demographic_inferred",
+          "sample_size": 30000
+        }
+      ]
+    },
+    {
+      "id": "dialect_region",
+      "name": "Dialect-region viewers",
+      "territories": [
+        "IN"
+      ],
+      "policy": "general_dialect",
+      "subtitle_track": "dialect_a",
+      "dialect": true,
+      "objective": "Show that the release understands the audience's language and cultural context",
+      "promise": "A tender family mystery, told in words that feel close to home, with the songs of its world.",
+      "emotional_journey": [
+        "belonging",
+        "curiosity",
+        "tension between siblings",
+        "reconciliation"
+      ],
+      "avoid_themes": [
+        "fear",
+        "romance"
+      ],
+      "beats": [
+        {
+          "name": "hook",
+          "themes": [
+            "warmth",
+            "hook"
+          ]
+        },
+        {
+          "name": "culture",
+          "themes": [
+            "culture",
+            "warmth"
+          ]
+        },
+        {
+          "name": "mystery",
+          "themes": [
+            "mystery",
+            "hook"
+          ]
+        },
+        {
+          "name": "conflict",
+          "themes": [
+            "conflict",
+            "identity"
+          ]
+        },
+        {
+          "name": "heart",
+          "themes": [
+            "culture",
+            "mystery"
+          ]
+        },
+        {
+          "name": "turn",
+          "themes": [
+            "reconcile",
+            "warmth"
+          ]
+        },
+        {
+          "name": "payoff",
+          "themes": [
+            "reconcile",
+            "mystery"
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "after_beat": "mystery",
+          "text": "A family. A letter. A house that remembers.",
+          "claims": [
+            "F03"
+          ],
+          "type": "claim"
+        },
+        {
+          "after_beat": "end",
+          "text": "The Lighthouse Letter",
+          "claims": [],
+          "type": "title"
+        }
+      ],
+      "signals": [
+        {
+          "id": "sig_dr_1",
+          "statement": "Viewers of folk-music-led family dramas complete family mysteries",
+          "preference_tags": [
+            "culture",
+            "warmth",
+            "mystery"
+          ],
+          "basis": "behavioral",
+          "sample_size": 4200
+        },
+        {
+          "id": "sig_dr_2",
+          "statement": "Viewers who use dialect subtitles finish titles that offer them",
+          "preference_tags": [
+            "subtitle_track"
+          ],
+          "basis": "behavioral",
+          "sample_size": 6100
+        },
+        {
+          "id": "sig_dr_3",
+          "statement": "Region viewers engage 3x with violent and 'rustic' comic content",
+          "preference_tags": [
+            "violence",
+            "humour"
+          ],
+          "basis": "region_only",
+          "sample_size": 90000,
+          "note": "Correlation derived from location alone; no behavioural evidence"
+        },
+        {
+          "id": "sig_dr_4",
+          "statement": "Some region viewers replay lullaby scenes",
+          "preference_tags": [
+            "culture"
+          ],
+          "basis": "behavioral",
+          "sample_size": 120
+        }
+      ]
+    }
+  ]
+}

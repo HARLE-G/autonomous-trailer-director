@@ -1,0 +1,506 @@
+{
+  "trailer_id": "family_v1",
+  "audience": "family",
+  "audience_name": "Family viewers",
+  "territories": [
+    "IN",
+    "US",
+    "UK"
+  ],
+  "duration_seconds": 59.2,
+  "objective": "Communicate warmth, stakes and broad entertainment value",
+  "audience_promise": "A warm, curious adventure: two siblings, a letter in the wall, and a house that has been waiting for them.",
+  "emotional_journey": [
+    "welcome",
+    "curiosity and humour",
+    "gentle tension",
+    "togetherness"
+  ],
+  "segments": [
+    {
+      "beat": "hook",
+      "moment_id": "s01b",
+      "video": "s01",
+      "source_in": "00:00:41.200",
+      "source_out": "00:00:46.000",
+      "audio": {
+        "dialogue": true,
+        "source_music": true,
+        "music_override": null,
+        "voice_over": null
+      },
+      "subtitle_track": "source",
+      "subtitle": "This house has waited for you both.",
+      "cue_ids": [
+        "c02"
+      ],
+      "transition": "fade_in_from_black",
+      "reason": "Warm welcome establishes the house and tone",
+      "signal_refs": [],
+      "risk_flags": [],
+      "index": 0,
+      "evidence": [
+        "scene:s01",
+        "moment:s01b",
+        "cue:c02",
+        "contract:C-A01",
+        "contract:C-A02",
+        "contract:C-A03",
+        "contract:C-M01",
+        "music:M-01",
+        "track:source",
+        "policy:accessibility",
+        "policy:family",
+        "policy:regional-IN",
+        "policy:regional-UK"
+      ]
+    },
+    {
+      "beat": "setup",
+      "moment_id": "s01a",
+      "video": "s01",
+      "source_in": "00:00:08.000",
+      "source_out": "00:00:14.500",
+      "audio": {
+        "dialogue": true,
+        "source_music": true,
+        "music_override": null,
+        "voice_over": null
+      },
+      "subtitle_track": "source",
+      "subtitle": "Ravi, hurry up. That's our new home.",
+      "cue_ids": [
+        "c01"
+      ],
+      "transition": "cut",
+      "reason": "Arrival of the siblings",
+      "signal_refs": [],
+      "risk_flags": [],
+      "index": 1,
+      "evidence": [
+        "scene:s01",
+        "moment:s01a",
+        "cue:c01",
+        "contract:C-A01",
+        "contract:C-A02",
+        "contract:C-M01",
+        "music:M-01",
+        "track:source",
+        "policy:accessibility",
+        "policy:family",
+        "policy:regional-IN",
+        "policy:regional-UK"
+      ]
+    },
+    {
+      "beat": "spark",
+      "moment_id": "s04a",
+      "video": "s04",
+      "source_in": "00:03:35.000",
+      "source_out": "00:03:41.500",
+      "audio": {
+        "dialogue": true,
+        "source_music": true,
+        "music_override": null,
+        "voice_over": null
+      },
+      "subtitle_track": "source",
+      "subtitle": "A good detective never trips. He investigates the floor.",
+      "cue_ids": [
+        "c07"
+      ],
+      "transition": "cut",
+      "reason": "Comic relief; Ravi's detective play",
+      "signal_refs": [],
+      "risk_flags": [],
+      "index": 2,
+      "evidence": [
+        "scene:s04",
+        "moment:s04a",
+        "cue:c07",
+        "contract:C-A02",
+        "contract:C-M01",
+        "music:M-01",
+        "track:source",
+        "policy:accessibility",
+        "policy:family",
+        "policy:regional-IN",
+        "policy:regional-UK"
+      ]
+    },
+    {
+      "beat": "mystery",
+      "moment_id": "s02b",
+      "video": "s02",
+      "source_in": "00:01:40.500",
+      "source_out": "00:01:47.000",
+      "audio": {
+        "dialogue": true,
+        "source_music": true,
+        "music_override": null,
+        "voice_over": null
+      },
+      "subtitle_track": "source",
+      "subtitle": "It has our names on it.",
+      "cue_ids": [
+        "c04"
+      ],
+      "transition": "cut",
+      "reason": "The sealed letter is the central hook",
+      "signal_refs": [],
+      "risk_flags": [],
+      "index": 3,
+      "evidence": [
+        "scene:s02",
+        "moment:s02b",
+        "cue:c04",
+        "contract:C-A01",
+        "contract:C-A02",
+        "contract:C-M01",
+        "music:M-01",
+        "track:source",
+        "policy:accessibility",
+        "policy:family",
+        "policy:regional-IN",
+        "policy:regional-UK"
+      ]
+    },
+    {
+      "beat": "complication",
+      "moment_id": "s03a",
+      "video": "s03",
+      "source_in": "00:02:14.200",
+      "source_out": "00:02:18.600",
+      "audio": {
+        "dialogue": true,
+        "source_music": false,
+        "music_override": "M-01",
+        "voice_over": null
+      },
+      "subtitle_track": "source",
+      "subtitle": "Some letters should stay sealed.",
+      "cue_ids": [
+        "c05"
+      ],
+      "transition": "cut",
+      "reason": "Dada's reluctance raises the stakes",
+      "signal_refs": [],
+      "risk_flags": [],
+      "index": 4,
+      "evidence": [
+        "scene:s03",
+        "moment:s03a",
+        "cue:c05",
+        "contract:C-A01",
+        "contract:C-A03",
+        "contract:C-M01",
+        "music:M-01",
+        "track:source",
+        "policy:accessibility",
+        "policy:family",
+        "policy:regional-IN",
+        "policy:regional-UK"
+      ]
+    },
+    {
+      "beat": "complication",
+      "moment_id": "s03b",
+      "video": "s03",
+      "source_in": "00:02:41.000",
+      "source_out": "00:02:47.000",
+      "audio": {
+        "dialogue": true,
+        "source_music": false,
+        "music_override": "M-01",
+        "voice_over": null
+      },
+      "subtitle_track": "source",
+      "subtitle": "Then why is our name on it?",
+      "cue_ids": [
+        "c06"
+      ],
+      "transition": "cut",
+      "reason": "Replacement for rejected footage: Asha asks why their names are on it",
+      "signal_refs": [],
+      "risk_flags": [],
+      "index": 5,
+      "evidence": [
+        "scene:s03",
+        "moment:s03b",
+        "cue:c06",
+        "contract:C-A01",
+        "contract:C-A03",
+        "contract:C-M01",
+        "music:M-01",
+        "track:source",
+        "policy:accessibility",
+        "policy:family",
+        "policy:regional-IN",
+        "policy:regional-UK"
+      ]
+    },
+    {
+      "beat": "heart",
+      "moment_id": "s05b",
+      "video": "s05",
+      "source_in": "00:05:15.000",
+      "source_out": "00:05:21.000",
+      "audio": {
+        "dialogue": true,
+        "source_music": true,
+        "music_override": null,
+        "voice_over": null
+      },
+      "subtitle_track": "source",
+      "subtitle": "Dada hums this when he's afraid to remember.",
+      "cue_ids": [
+        "c10"
+      ],
+      "transition": "cut",
+      "reason": "Cultural warmth and a hint of Dada's past",
+      "signal_refs": [],
+      "risk_flags": [
+        "approval_cultural_M-03"
+      ],
+      "index": 6,
+      "evidence": [
+        "scene:s05",
+        "moment:s05b",
+        "cue:c10",
+        "contract:C-A01",
+        "contract:C-A03",
+        "contract:C-M03",
+        "music:M-03",
+        "track:source",
+        "policy:accessibility",
+        "policy:family",
+        "policy:regional-IN",
+        "policy:regional-UK"
+      ]
+    },
+    {
+      "beat": "turn",
+      "moment_id": "s10a",
+      "video": "s10",
+      "source_in": "00:10:40.000",
+      "source_out": "00:10:46.500",
+      "audio": {
+        "dialogue": true,
+        "source_music": false,
+        "music_override": "M-01",
+        "voice_over": null
+      },
+      "subtitle_track": "source",
+      "subtitle": "Fine. Together. But I read first. Deal. Also, I'm the detective.",
+      "cue_ids": [
+        "c18",
+        "c19"
+      ],
+      "transition": "cut",
+      "reason": "Siblings reconcile with humour",
+      "signal_refs": [],
+      "risk_flags": [],
+      "index": 7,
+      "evidence": [
+        "scene:s10",
+        "moment:s10a",
+        "cue:c18",
+        "cue:c19",
+        "contract:C-A01",
+        "contract:C-A02",
+        "contract:C-M01",
+        "music:M-01",
+        "track:source",
+        "policy:accessibility",
+        "policy:family",
+        "policy:regional-IN",
+        "policy:regional-UK"
+      ]
+    },
+    {
+      "beat": "payoff",
+      "moment_id": "s10b",
+      "video": "s10",
+      "source_in": "00:11:05.000",
+      "source_out": "00:11:11.000",
+      "audio": {
+        "dialogue": true,
+        "source_music": false,
+        "music_override": "M-01",
+        "voice_over": null
+      },
+      "subtitle_track": "source",
+      "subtitle": "The map ends at the lamp room.",
+      "cue_ids": [
+        "c20"
+      ],
+      "transition": "cut_to_card",
+      "reason": "The map to the lamp room",
+      "signal_refs": [],
+      "risk_flags": [],
+      "index": 8,
+      "evidence": [
+        "scene:s10",
+        "moment:s10b",
+        "cue:c20",
+        "contract:C-A01",
+        "contract:C-A02",
+        "contract:C-M01",
+        "music:M-01",
+        "track:source",
+        "policy:accessibility",
+        "policy:family",
+        "policy:regional-IN",
+        "policy:regional-UK"
+      ]
+    }
+  ],
+  "text_cards": [
+    {
+      "after_beat": "mystery",
+      "text": "A letter in the wall. A house full of questions.",
+      "claims": [
+        "F03"
+      ],
+      "type": "claim",
+      "duration": 4.0,
+      "evidence": [
+        "fact:F03",
+        "policy:accessibility",
+        "policy:family",
+        "policy:regional-IN",
+        "policy:regional-UK"
+      ]
+    },
+    {
+      "after_beat": "end",
+      "text": "The Lighthouse Letter",
+      "claims": [],
+      "type": "title",
+      "duration": 2.0,
+      "evidence": [
+        "policy:accessibility",
+        "policy:family",
+        "policy:regional-IN",
+        "policy:regional-UK"
+      ]
+    }
+  ],
+  "provenance": {
+    "planner": "recorded-llm"
+  },
+  "repair_history": [
+    {
+      "iteration": 1,
+      "target": "segment[8] s10 00:11:05.000",
+      "codes": [
+        "music_territory_denied"
+      ],
+      "action": "replace_music_with_M-01",
+      "before": "00:11:05.000-00:11:11.000",
+      "after": "same footage"
+    },
+    {
+      "iteration": 1,
+      "target": "segment[7] s10 00:10:40.000",
+      "codes": [
+        "music_territory_denied"
+      ],
+      "action": "replace_music_with_M-01",
+      "before": "00:10:40.000-00:10:46.500",
+      "after": "same footage"
+    },
+    {
+      "iteration": 1,
+      "target": "segment[5] s06 00:06:00.000",
+      "codes": [
+        "actor_condition_minor_in_frightening_content",
+        "policy_fear"
+      ],
+      "action": "replace_footage+replace_music_with_M-01",
+      "before": "s06 00:06:00.000-00:06:06.000",
+      "after": "s03/s03b 00:02:41.000-00:02:47.000"
+    },
+    {
+      "iteration": 1,
+      "target": "segment[4] s03 00:02:14.200",
+      "codes": [
+        "music_territory_denied"
+      ],
+      "action": "replace_music_with_M-01",
+      "before": "00:02:14.200-00:02:18.600",
+      "after": "same footage"
+    }
+  ],
+  "validation": {
+    "status": "PASS_WITH_WARNINGS",
+    "timeline_seconds": 59.2,
+    "checks_run": [
+      "source_accuracy",
+      "spoiler",
+      "story_truth",
+      "policy",
+      "rights",
+      "accessibility",
+      "timing",
+      "bias_and_dialect"
+    ],
+    "findings": [
+      {
+        "severity": "WARN",
+        "code": "approval_cultural_M-03",
+        "message": "track M-03 requires cultural approval",
+        "segment": 6,
+        "card": null,
+        "evidence": [
+          "C-M03",
+          "R-MUS-M-03"
+        ],
+        "check": "bias_and_dialect"
+      }
+    ],
+    "initial_status": "REJECTED",
+    "initial_fail_count": 5,
+    "unresolved_failures": []
+  },
+  "human_approvals": [
+    {
+      "approver": "cultural",
+      "item": "M-03",
+      "why": "traditional/cultural music requires cultural reviewer sign-off"
+    },
+    {
+      "approver": "editorial",
+      "item": "audio stems",
+      "why": "assumes dialogue and music stems are separable (episode.stems_available=true); audio engineer to confirm"
+    }
+  ],
+  "assumptions": [
+    "Moment catalogue and content ratings are taken from supplied annotations; conservative max(human, AI) rating used",
+    "Dialogue/music stems are separable so music can be replaced without losing dialogue",
+    "Subtitle text is burned in (captions must not depend on audio alone)",
+    "Historic engagement is a hypothesis; it only contributes a small ranking weight"
+  ],
+  "estimated_cost": {
+    "currency": "USD",
+    "planner_model_call": 0.06,
+    "verifier_second_opinion": 0.03,
+    "media_analysis": 0.6833,
+    "tool_calls": 0.04,
+    "total": 0.8133,
+    "note": "estimate for a live run; replay mode incurs $0"
+  },
+  "fallback_plan": {
+    "strategy": "heuristic planner + cached scene annotations + deterministic verifier only (no live model calls)",
+    "estimated_total": 0.04,
+    "trade_offs": [
+      "no creative model ideation (beat-template selection only)",
+      "no LLM second opinion on tone/dialect nuance; humans review instead"
+    ],
+    "triggers": [
+      "budget guard would be exceeded",
+      "preferred model unavailable"
+    ]
+  },
+  "marketing_requests": []
+}

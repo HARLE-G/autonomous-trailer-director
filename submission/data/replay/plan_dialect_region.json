@@ -1,0 +1,82 @@
+{
+  "planner": "recorded-llm",
+  "segments": [
+    {
+      "beat": "hook",
+      "moment_id": "s01b",
+      "reason": "Warm belonging in the opening"
+    },
+    {
+      "beat": "culture",
+      "moment_id": "s05a",
+      "reason": "Harvest song grounds the trailer in a shared cultural world",
+      "signal_refs": [
+        "sig_dr_1"
+      ]
+    },
+    {
+      "beat": "mystery",
+      "moment_id": "s02b",
+      "reason": "The sealed letter"
+    },
+    {
+      "beat": "conflict",
+      "moment_id": "s07b",
+      "reason": "Sibling conflict in dialect subtitles",
+      "subtitle_track": "dialect_a",
+      "signal_refs": [
+        "sig_dr_3",
+        "sig_dr_2"
+      ]
+    },
+    {
+      "beat": "heart",
+      "moment_id": "s11a",
+      "reason": "Supportive friend beat",
+      "subtitle_track": "dialect_a"
+    },
+    {
+      "beat": "heart",
+      "moment_id": "s13a",
+      "reason": "Cliffhanger radio voice",
+      "subtitle_track": "dialect_a"
+    },
+    {
+      "beat": "heart",
+      "moment_id": "s05b",
+      "reason": "Dada hums the song",
+      "subtitle_track": "dialect_a",
+      "signal_refs": [
+        "sig_dr_1"
+      ]
+    },
+    {
+      "beat": "turn",
+      "moment_id": "s10a",
+      "reason": "Siblings reconcile",
+      "subtitle_track": "dialect_a"
+    },
+    {
+      "beat": "payoff",
+      "moment_id": "s10b",
+      "reason": "The map to the lamp room",
+      "subtitle_track": "dialect_a"
+    }
+  ],
+  "text_cards": [
+    {
+      "after_beat": "mystery",
+      "text": "Rustic village charm meets a family mystery.",
+      "claims": [
+        "F03"
+      ],
+      "type": "claim"
+    },
+    {
+      "after_beat": "end",
+      "text": "The Lighthouse Letter",
+      "claims": [],
+      "type": "title"
+    }
+  ]
+}

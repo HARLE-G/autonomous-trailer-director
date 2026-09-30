@@ -1,0 +1,4 @@
+# Runtime uses only the Python 3.10+ standard library.
+pytest>=8
+# Optional, only for --mode live:
+# anthropic>=0.40

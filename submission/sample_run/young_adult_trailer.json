@@ -1,0 +1,484 @@
+{
+  "trailer_id": "young_adult_v1",
+  "audience": "young_adult",
+  "audience_name": "Young adult viewers",
+  "territories": [
+    "IN",
+    "US",
+    "UK"
+  ],
+  "duration_seconds": 49.5,
+  "objective": "Highlight pace, humour, identity and character conflict",
+  "audience_promise": "Two siblings, one sealed letter and a fight over whether to read it. Fast, funny and personal.",
+  "emotional_journey": [
+    "intrigue",
+    "banter",
+    "conflict",
+    "uneasy alliance"
+  ],
+  "segments": [
+    {
+      "beat": "hook",
+      "moment_id": "s08a",
+      "video": "s08",
+      "source_in": "00:08:10.000",
+      "source_out": "00:08:15.500",
+      "audio": {
+        "dialogue": true,
+        "source_music": true,
+        "music_override": null,
+        "voice_over": null
+      },
+      "subtitle_track": "source",
+      "subtitle": "Run! Don't look back!",
+      "cue_ids": [
+        "c14"
+      ],
+      "transition": "fade_in_from_black",
+      "reason": "Action inside the first 8 seconds (signal sig_ya_2)",
+      "signal_refs": [
+        "sig_ya_2"
+      ],
+      "risk_flags": [],
+      "index": 0,
+      "evidence": [
+        "scene:s08",
+        "moment:s08a",
+        "cue:c14",
+        "contract:C-A01",
+        "contract:C-A02",
+        "contract:C-M04",
+        "music:M-04",
+        "track:source",
+        "signal:sig_ya_2",
+        "policy:accessibility",
+        "policy:regional-IN",
+        "policy:regional-UK",
+        "policy:young_adult"
+      ]
+    },
+    {
+      "beat": "banter",
+      "moment_id": "s02a",
+      "video": "s02",
+      "source_in": "00:01:12.000",
+      "source_out": "00:01:19.000",
+      "audio": {
+        "dialogue": true,
+        "source_music": true,
+        "music_override": null,
+        "voice_over": null
+      },
+      "subtitle_track": "source",
+      "subtitle": "Didi, the wall is hiding something!",
+      "cue_ids": [
+        "c03"
+      ],
+      "transition": "cut",
+      "reason": "Ravi's banter",
+      "signal_refs": [
+        "sig_ya_1"
+      ],
+      "risk_flags": [],
+      "index": 1,
+      "evidence": [
+        "scene:s02",
+        "moment:s02a",
+        "cue:c03",
+        "contract:C-A01",
+        "contract:C-A02",
+        "contract:C-M01",
+        "music:M-01",
+        "track:source",
+        "signal:sig_ya_1",
+        "policy:accessibility",
+        "policy:regional-IN",
+        "policy:regional-UK",
+        "policy:young_adult"
+      ]
+    },
+    {
+      "beat": "inciting",
+      "moment_id": "s02b",
+      "video": "s02",
+      "source_in": "00:01:40.500",
+      "source_out": "00:01:47.000",
+      "audio": {
+        "dialogue": true,
+        "source_music": true,
+        "music_override": null,
+        "voice_over": null
+      },
+      "subtitle_track": "source",
+      "subtitle": "It has our names on it.",
+      "cue_ids": [
+        "c04"
+      ],
+      "transition": "cut",
+      "reason": "The letter",
+      "signal_refs": [],
+      "risk_flags": [],
+      "index": 2,
+      "evidence": [
+        "scene:s02",
+        "moment:s02b",
+        "cue:c04",
+        "contract:C-A01",
+        "contract:C-A02",
+        "contract:C-M01",
+        "music:M-01",
+        "track:source",
+        "policy:accessibility",
+        "policy:regional-IN",
+        "policy:regional-UK",
+        "policy:young_adult"
+      ]
+    },
+    {
+      "beat": "conflict",
+      "moment_id": "s07b",
+      "video": "s07",
+      "source_in": "00:07:20.000",
+      "source_out": "00:07:26.500",
+      "audio": {
+        "dialogue": true,
+        "source_music": false,
+        "music_override": "M-01",
+        "voice_over": null
+      },
+      "subtitle_track": "source",
+      "subtitle": "Asha didi, you can't decide for me.",
+      "cue_ids": [
+        "c13"
+      ],
+      "transition": "cut",
+      "reason": "Identity conflict between the siblings",
+      "signal_refs": [
+        "sig_ya_1"
+      ],
+      "risk_flags": [],
+      "index": 3,
+      "evidence": [
+        "scene:s07",
+        "moment:s07b",
+        "cue:c13",
+        "contract:C-A01",
+        "contract:C-A02",
+        "contract:C-M01",
+        "music:M-01",
+        "track:source",
+        "signal:sig_ya_1",
+        "policy:accessibility",
+        "policy:regional-IN",
+        "policy:regional-UK",
+        "policy:young_adult"
+      ]
+    },
+    {
+      "beat": "threat",
+      "moment_id": "s07a",
+      "video": "s07",
+      "source_in": "00:07:02.000",
+      "source_out": "00:07:08.000",
+      "audio": {
+        "dialogue": true,
+        "source_music": false,
+        "music_override": "M-01",
+        "voice_over": null
+      },
+      "subtitle_track": "source",
+      "subtitle": "We burn it. Tonight.",
+      "cue_ids": [
+        "c12"
+      ],
+      "transition": "cut",
+      "reason": "Replacement for rejected footage: Asha says they should burn the letter tonight",
+      "signal_refs": [
+        "sig_ya_1"
+      ],
+      "risk_flags": [],
+      "index": 4,
+      "evidence": [
+        "scene:s07",
+        "moment:s07a",
+        "cue:c12",
+        "contract:C-A01",
+        "contract:C-A02",
+        "contract:C-M01",
+        "music:M-01",
+        "track:source",
+        "signal:sig_ya_1",
+        "policy:accessibility",
+        "policy:regional-IN",
+        "policy:regional-UK",
+        "policy:young_adult"
+      ]
+    },
+    {
+      "beat": "turn",
+      "moment_id": "s04b",
+      "video": "s04",
+      "source_in": "00:04:00.000",
+      "source_out": "00:04:06.000",
+      "audio": {
+        "dialogue": true,
+        "source_music": true,
+        "music_override": null,
+        "voice_over": null
+      },
+      "subtitle_track": "source",
+      "subtitle": "Eat first. Mysteries are better on a full stomach.",
+      "cue_ids": [
+        "c08"
+      ],
+      "transition": "cut",
+      "reason": "Replacement for rejected footage: Meera brings tea and tells the children to eat first",
+      "signal_refs": [
+        "sig_ya_1"
+      ],
+      "risk_flags": [],
+      "index": 5,
+      "evidence": [
+        "scene:s04",
+        "moment:s04b",
+        "cue:c08",
+        "contract:C-A01",
+        "contract:C-A02",
+        "contract:C-A04",
+        "contract:C-M01",
+        "music:M-01",
+        "track:source",
+        "signal:sig_ya_1",
+        "policy:accessibility",
+        "policy:regional-IN",
+        "policy:regional-UK",
+        "policy:young_adult"
+      ]
+    },
+    {
+      "beat": "payoff",
+      "moment_id": "s10a",
+      "video": "s10",
+      "source_in": "00:10:40.000",
+      "source_out": "00:10:46.500",
+      "audio": {
+        "dialogue": true,
+        "source_music": false,
+        "music_override": "M-01",
+        "voice_over": null
+      },
+      "subtitle_track": "source",
+      "subtitle": "Fine. Together. But I read first. Deal. Also, I'm the detective.",
+      "cue_ids": [
+        "c18",
+        "c19"
+      ],
+      "transition": "cut_to_card",
+      "reason": "Siblings agree to work together",
+      "signal_refs": [],
+      "risk_flags": [],
+      "index": 6,
+      "evidence": [
+        "scene:s10",
+        "moment:s10a",
+        "cue:c18",
+        "cue:c19",
+        "contract:C-A01",
+        "contract:C-A02",
+        "contract:C-M01",
+        "music:M-01",
+        "track:source",
+        "policy:accessibility",
+        "policy:regional-IN",
+        "policy:regional-UK",
+        "policy:young_adult"
+      ]
+    }
+  ],
+  "text_cards": [
+    {
+      "after_beat": "inciting",
+      "text": "One letter. Two siblings. Zero agreement.",
+      "claims": [
+        "F03",
+        "F05"
+      ],
+      "type": "claim",
+      "duration": 3.5,
+      "evidence": [
+        "fact:F03",
+        "fact:F05",
+        "policy:accessibility",
+        "policy:regional-IN",
+        "policy:regional-UK",
+        "policy:young_adult"
+      ]
+    },
+    {
+      "after_beat": "end",
+      "text": "The Lighthouse Letter",
+      "claims": [],
+      "type": "title",
+      "duration": 2.0,
+      "evidence": [
+        "policy:accessibility",
+        "policy:regional-IN",
+        "policy:regional-UK",
+        "policy:young_adult"
+      ]
+    }
+  ],
+  "provenance": {
+    "planner": "recorded-llm"
+  },
+  "repair_history": [
+    {
+      "iteration": 1,
+      "target": "text_card[0]",
+      "codes": [
+        "clickbait_misrepresentation",
+        "unreferenced_claim",
+        "unsupported_relationship"
+      ],
+      "action": "replace_with_verified_template_card",
+      "before": "YOU WON'T BELIEVE WHO THEIR FATHER IS?!",
+      "after": "One letter. Two siblings. Zero agreement."
+    },
+    {
+      "iteration": 1,
+      "target": "segment[8] s10 00:10:40.000",
+      "codes": [
+        "music_territory_denied"
+      ],
+      "action": "replace_music_with_M-01",
+      "before": "00:10:40.000-00:10:46.500",
+      "after": "same footage"
+    },
+    {
+      "iteration": 1,
+      "target": "segment[7] s12 00:13:02.000",
+      "codes": [
+        "spoiler_moment",
+        "spoiler_text"
+      ],
+      "action": "replace_footage",
+      "before": "s12 00:13:02.000-00:13:10.000",
+      "after": "s04/s04b 00:04:00.000-00:04:06.000"
+    },
+    {
+      "iteration": 1,
+      "target": "segment[6] s11 00:12:10.000",
+      "codes": [
+        "actor_territory_denied",
+        "music_territory_denied",
+        "policy_suggestive",
+        "unapproved_signal"
+      ],
+      "action": "drop_segment",
+      "before": "s11 00:12:10.000-00:12:16.000",
+      "after": null
+    },
+    {
+      "iteration": 1,
+      "target": "segment[5] s15 00:14:20.000",
+      "codes": [
+        "source_beyond_episode",
+        "source_scene_missing"
+      ],
+      "action": "drop_segment",
+      "before": "s15 00:14:20.000-00:14:26.000",
+      "after": null
+    },
+    {
+      "iteration": 1,
+      "target": "segment[4] s09 00:09:25.000",
+      "codes": [
+        "actor_territory_denied"
+      ],
+      "action": "replace_footage+replace_music_with_M-01",
+      "before": "s09 00:09:25.000-00:09:31.000",
+      "after": "s07/s07a 00:07:02.000-00:07:08.000"
+    },
+    {
+      "iteration": 1,
+      "target": "segment[3] s07 00:07:20.000",
+      "codes": [
+        "music_territory_denied"
+      ],
+      "action": "replace_music_with_M-01",
+      "before": "00:07:20.000-00:07:26.500",
+      "after": "same footage"
+    }
+  ],
+  "validation": {
+    "status": "PASS",
+    "timeline_seconds": 49.5,
+    "checks_run": [
+      "source_accuracy",
+      "spoiler",
+      "story_truth",
+      "policy",
+      "rights",
+      "accessibility",
+      "timing",
+      "bias_and_dialect"
+    ],
+    "findings": [],
+    "initial_status": "REJECTED",
+    "initial_fail_count": 15,
+    "unresolved_failures": []
+  },
+  "human_approvals": [
+    {
+      "approver": "editorial",
+      "item": "audio stems",
+      "why": "assumes dialogue and music stems are separable (episode.stems_available=true); audio engineer to confirm"
+    },
+    {
+      "approver": "editorial",
+      "item": "marketing request MKT-01",
+      "why": "request rejected by verifier; marketing must accept the compliant alternative"
+    }
+  ],
+  "assumptions": [
+    "Moment catalogue and content ratings are taken from supplied annotations; conservative max(human, AI) rating used",
+    "Dialogue/music stems are separable so music can be replaced without losing dialogue",
+    "Subtitle text is burned in (captions must not depend on audio alone)",
+    "Historic engagement is a hypothesis; it only contributes a small ranking weight"
+  ],
+  "estimated_cost": {
+    "currency": "USD",
+    "planner_model_call": 0.06,
+    "verifier_second_opinion": 0.03,
+    "media_analysis": 0.5833,
+    "tool_calls": 0.04,
+    "total": 0.7133,
+    "note": "estimate for a live run; replay mode incurs $0"
+  },
+  "fallback_plan": {
+    "strategy": "heuristic planner + cached scene annotations + deterministic verifier only (no live model calls)",
+    "estimated_total": 0.04,
+    "trade_offs": [
+      "no creative model ideation (beat-template selection only)",
+      "no LLM second opinion on tone/dialect nuance; humans review instead"
+    ],
+    "triggers": [
+      "budget guard would be exceeded",
+      "preferred model unavailable"
+    ]
+  },
+  "marketing_requests": [
+    {
+      "id": "MKT-01",
+      "audience": "young_adult",
+      "text": "YOU WON'T BELIEVE WHO THEIR FATHER IS?!",
+      "accepted": false,
+      "rejected_for": [
+        "clickbait_misrepresentation",
+        "unreferenced_claim",
+        "unsupported_relationship"
+      ],
+      "alternative": "One letter. Two siblings. Zero agreement."
+    }
+  ]
+}

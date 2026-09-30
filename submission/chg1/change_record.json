@@ -1,0 +1,89 @@
+[
+  {
+    "audience": "family",
+    "status_before": "PASS_WITH_WARNINGS",
+    "status_after": "PASS_WITH_WARNINGS",
+    "affected_segments": [],
+    "affected_cards": [],
+    "new_failures_found": [],
+    "actions": [],
+    "segments_before": 9,
+    "segments_after": 9,
+    "segments_unchanged": 9,
+    "unaffected_footage_preserved": true
+  },
+  {
+    "audience": "young_adult",
+    "status_before": "PASS",
+    "status_after": "PASS",
+    "affected_segments": [],
+    "affected_cards": [],
+    "new_failures_found": [],
+    "actions": [],
+    "segments_before": 7,
+    "segments_after": 7,
+    "segments_unchanged": 7,
+    "unaffected_footage_preserved": true
+  },
+  {
+    "audience": "dialect_region",
+    "status_before": "PASS_WITH_WARNINGS",
+    "status_after": "PASS_WITH_WARNINGS",
+    "affected_segments": [
+      2,
+      3,
+      6,
+      7
+    ],
+    "affected_cards": [],
+    "new_failures_found": [
+      "music_license_expired"
+    ],
+    "actions": [
+      {
+        "iteration": 1,
+        "target": "segment[7] s10 00:11:05.000",
+        "codes": [
+          "music_license_expired"
+        ],
+        "action": "replace_music_with_M-01",
+        "before": "00:11:05.000-00:11:11.000",
+        "after": "same footage"
+      },
+      {
+        "iteration": 1,
+        "target": "segment[6] s10 00:10:40.000",
+        "codes": [
+          "music_license_expired"
+        ],
+        "action": "replace_music_with_M-01",
+        "before": "00:10:40.000-00:10:46.500",
+        "after": "same footage"
+      },
+      {
+        "iteration": 1,
+        "target": "segment[3] s03 00:02:14.200",
+        "codes": [
+          "music_license_expired"
+        ],
+        "action": "replace_music_with_M-01",
+        "before": "00:02:14.200-00:02:18.600",
+        "after": "same footage"
+      },
+      {
+        "iteration": 1,
+        "target": "segment[2] s07 00:07:20.000",
+        "codes": [
+          "music_license_expired"
+        ],
+        "action": "replace_music_with_M-01",
+        "before": "00:07:20.000-00:07:26.500",
+        "after": "same footage"
+      }
+    ],
+    "segments_before": 8,
+    "segments_after": 8,
+    "segments_unchanged": 4,
+    "unaffected_footage_preserved": true
+  }
+]

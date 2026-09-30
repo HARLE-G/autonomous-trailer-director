@@ -1,0 +1,295 @@
+{
+  "tracks": [
+    "source",
+    "dialect_a",
+    "dialect_b"
+  ],
+  "cues": [
+    {
+      "id": "c01",
+      "scene": "s01",
+      "start": "00:00:08.600",
+      "end": "00:00:13.600",
+      "speaker": "asha",
+      "addressee": "ravi",
+      "text": "Ravi, hurry up. That's our new home.",
+      "subtitles": {
+        "dialect_a": "Ravi, come along. That is our new home.",
+        "dialect_b": "Ravi, hurry now. That's our new home."
+      }
+    },
+    {
+      "id": "c02",
+      "scene": "s01",
+      "start": "00:00:41.600",
+      "end": "00:00:45.600",
+      "speaker": "dada",
+      "addressee": "asha",
+      "text": "This house has waited for you both.",
+      "subtitles": {
+        "dialect_a": "This house has been waiting for you both.",
+        "dialect_b": "This house waited for the two of you."
+      }
+    },
+    {
+      "id": "c03",
+      "scene": "s02",
+      "start": "00:01:12.500",
+      "end": "00:01:17.500",
+      "speaker": "ravi",
+      "addressee": "asha",
+      "text": "Didi, the wall is hiding something!",
+      "subtitles": {
+        "dialect_a": "Didi, something is hidden in this wall!",
+        "dialect_b": "Didi, the wall is hiding something!"
+      }
+    },
+    {
+      "id": "c04",
+      "scene": "s02",
+      "start": "00:01:41.000",
+      "end": "00:01:44.500",
+      "speaker": "ravi",
+      "addressee": "asha",
+      "text": "It has our names on it.",
+      "subtitles": {
+        "dialect_a": "Our names are written on it.",
+        "dialect_b": "It carries both our names."
+      }
+    },
+    {
+      "id": "c05",
+      "scene": "s03",
+      "start": "00:02:14.600",
+      "end": "00:02:18.000",
+      "speaker": "dada",
+      "addressee": "asha",
+      "text": "Some letters should stay sealed.",
+      "subtitles": {
+        "dialect_a": "Some letters are better left sealed.",
+        "dialect_b": "Some letters must stay sealed."
+      }
+    },
+    {
+      "id": "c06",
+      "scene": "s03",
+      "start": "00:02:41.500",
+      "end": "00:02:45.500",
+      "speaker": "asha",
+      "addressee": "dada",
+      "text": "Then why is our name on it?",
+      "subtitles": {
+        "dialect_a": "Then why does it carry our names?",
+        "dialect_b": "Then why are our names on it?"
+      }
+    },
+    {
+      "id": "c07",
+      "scene": "s04",
+      "start": "00:03:35.500",
+      "end": "00:03:41.000",
+      "speaker": "ravi",
+      "addressee": "asha",
+      "text": "A good detective never trips. He investigates the floor.",
+      "subtitles": {
+        "dialect_a": "A good detective never trips. He studies the floor.",
+        "dialect_b": "A good detective never trips. He examines the floor."
+      }
+    },
+    {
+      "id": "c08",
+      "scene": "s04",
+      "start": "00:04:00.500",
+      "end": "00:04:05.000",
+      "speaker": "meera",
+      "addressee": "ravi",
+      "text": "Eat first. Mysteries are better on a full stomach.",
+      "subtitles": {
+        "dialect_a": "Eat first. A mystery is better on a full stomach.",
+        "dialect_b": "First eat. Mysteries go better on a full stomach."
+      }
+    },
+    {
+      "id": "c10",
+      "scene": "s05",
+      "start": "00:05:15.500",
+      "end": "00:05:20.500",
+      "speaker": "asha",
+      "addressee": "ravi",
+      "text": "Dada hums this when he's afraid to remember.",
+      "subtitles": {
+        "dialect_a": "Dada hums this when he is afraid of remembering.",
+        "dialect_b": "Dada hums this when remembering frightens him."
+      }
+    },
+    {
+      "id": "c11",
+      "scene": "s06",
+      "start": "00:06:25.400",
+      "end": "00:06:29.400",
+      "speaker": "ravi",
+      "addressee": "asha",
+      "text": "Didi... someone is in the lighthouse.",
+      "subtitles": {
+        "dialect_a": "Didi... there is someone in the lighthouse.",
+        "dialect_b": "Didi... someone is in the lighthouse."
+      }
+    },
+    {
+      "id": "c12",
+      "scene": "s07",
+      "start": "00:07:02.400",
+      "end": "00:07:06.400",
+      "speaker": "asha",
+      "addressee": "ravi",
+      "text": "We burn it. Tonight.",
+      "subtitles": {
+        "dialect_a": "We burn it. Tonight.",
+        "dialect_b": "We burn it tonight."
+      }
+    },
+    {
+      "id": "c13",
+      "scene": "s07",
+      "start": "00:07:20.400",
+      "end": "00:07:25.400",
+      "speaker": "ravi",
+      "addressee": "asha",
+      "text": "Asha didi, you can't decide for me.",
+      "subtitles": {
+        "dialect_a": "Mother, you can't decide for me.",
+        "dialect_b": "Asha didi, you can't decide this for me."
+      }
+    },
+    {
+      "id": "c14",
+      "scene": "s08",
+      "start": "00:08:10.400",
+      "end": "00:08:13.400",
+      "speaker": "asha",
+      "addressee": "ravi",
+      "text": "Run! Don't look back!",
+      "subtitles": {
+        "dialect_a": "Run! Do not look back!",
+        "dialect_b": "Run! Don't look back!"
+      }
+    },
+    {
+      "id": "c15",
+      "scene": "s09",
+      "start": "00:09:25.400",
+      "end": "00:09:30.400",
+      "speaker": "kaul",
+      "addressee": "dada",
+      "text": "Give me the letter, old man, or this house pays.",
+      "subtitles": {
+        "dialect_a": "Give me the letter, old man, or this house pays for it.",
+        "dialect_b": "Hand over the letter, old man, or this house pays."
+      }
+    },
+    {
+      "id": "c16",
+      "scene": "s09",
+      "start": "00:09:52.400",
+      "end": "00:09:56.400",
+      "speaker": "dada",
+      "addressee": "kaul",
+      "text": "Not while I breathe.",
+      "subtitles": {
+        "dialect_a": "Not while I have breath.",
+        "dialect_b": "Not while I breathe."
+      }
+    },
+    {
+      "id": "c18",
+      "scene": "s10",
+      "start": "00:10:40.400",
+      "end": "00:10:43.400",
+      "speaker": "asha",
+      "addressee": "ravi",
+      "text": "Fine. Together. But I read first.",
+      "subtitles": {
+        "dialect_a": "Fine. Together. But I read first.",
+        "dialect_b": "Fine. Together. But I read first."
+      }
+    },
+    {
+      "id": "c19",
+      "scene": "s10",
+      "start": "00:10:43.600",
+      "end": "00:10:46.200",
+      "speaker": "ravi",
+      "addressee": "asha",
+      "text": "Deal. Also, I'm the detective.",
+      "subtitles": {
+        "dialect_a": "Deal. Also, I am the detective.",
+        "dialect_b": "Deal. And I'm the detective."
+      }
+    },
+    {
+      "id": "c20",
+      "scene": "s10",
+      "start": "00:11:05.400",
+      "end": "00:11:09.400",
+      "speaker": "asha",
+      "addressee": "ravi",
+      "text": "The map ends at the lamp room.",
+      "subtitles": {
+        "dialect_a": "The map ends at the lamp room.",
+        "dialect_b": "The map ends in the lamp room."
+      }
+    },
+    {
+      "id": "c21",
+      "scene": "s11",
+      "start": "00:11:45.400",
+      "end": "00:11:49.400",
+      "speaker": "neel",
+      "addressee": "asha",
+      "text": "Whatever's in that letter, you're not alone.",
+      "subtitles": {
+        "dialect_a": "Whatever is in that letter, you are not alone.",
+        "dialect_b": "Whatever's in that letter, you're not alone."
+      }
+    },
+    {
+      "id": "c22",
+      "scene": "s12",
+      "start": "00:12:44.400",
+      "end": "00:12:48.400",
+      "speaker": "meera",
+      "addressee": "asha",
+      "text": "Rest now. I'll keep the letter safe for you.",
+      "subtitles": {
+        "dialect_a": "Rest now. I will keep the letter safe for you.",
+        "dialect_b": "Rest now. I'll keep the letter safe for you."
+      }
+    },
+    {
+      "id": "c23",
+      "scene": "s12",
+      "start": "00:13:02.400",
+      "end": "00:13:07.400",
+      "speaker": "meera",
+      "addressee": "meera",
+      "text": "They must never know she wrote every year.",
+      "subtitles": {
+        "dialect_a": "They must never know she wrote every year.",
+        "dialect_b": "They must never know she wrote every year."
+      }
+    },
+    {
+      "id": "c24",
+      "scene": "s13",
+      "start": "00:13:24.400",
+      "end": "00:13:29.400",
+      "speaker": "radio",
+      "addressee": "asha",
+      "text": "Asha, Ravi... it's Mama. I'm alive.",
+      "subtitles": {
+        "dialect_a": "Asha, Ravi... it is Mama. I am alive.",
+        "dialect_b": "Asha, Ravi... it's Mama. I'm alive."
+      }
+    }
+  ]
+}
